@@ -17,12 +17,15 @@ function SumWithoutHighestAndLowestNumber(array) {
     // console.log(sum);
 
 
+
     ///// we can replace for loop with reduce method
 
     // let newArr = filteredArray.reduce ((acc,curr) => acc + curr ,0)
 
     // console.log(newArr);
 
+
+    
 
     ///// short solution 
 
