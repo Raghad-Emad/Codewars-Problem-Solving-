@@ -32,6 +32,8 @@ function SumWithoutHighestAndLowestNumber(array) {
     // console.log( array.filter((x) => x !== Math.max(...array) && x !== Math.min(...array)).reduce((acc,current) => acc + current ,0))
 
     
+
+    
     ///// Solution for all test cases if there is a number is repeated 
 
     console.log(array.sort((a,b) => a-b).slice(1,-1).reduce((acc,current) => acc + current ,0))
