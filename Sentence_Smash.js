@@ -1,3 +1,5 @@
+// convert array to a sentence.
+
 function smash(words) {
     return words.join(' ');
 }
